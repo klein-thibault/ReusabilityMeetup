@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E0149DE1E798B6E00B21E53 /* SpriteAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E0149DD1E798B6E00B21E53 /* SpriteAssets.xcassets */; };
+		8E037B781E7796EF0078E90C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037B771E7796EF0078E90C /* AppDelegate.swift */; };
+		8E037B7A1E7796EF0078E90C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037B791E7796EF0078E90C /* ViewController.swift */; };
+		8E037B7D1E7796EF0078E90C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E037B7B1E7796EF0078E90C /* Main.storyboard */; };
+		8E037B7F1E7796EF0078E90C /* CocaColaAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E037B7E1E7796EF0078E90C /* CocaColaAssets.xcassets */; };
+		8E037B821E7796EF0078E90C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E037B801E7796EF0078E90C /* LaunchScreen.storyboard */; };
+		8E037B8B1E7797020078E90C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037B791E7796EF0078E90C /* ViewController.swift */; };
+		8E037B8C1E7797020078E90C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037B771E7796EF0078E90C /* AppDelegate.swift */; };
+		8E037B8F1E7797020078E90C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E037B801E7796EF0078E90C /* LaunchScreen.storyboard */; };
+		8E037B911E7797020078E90C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E037B7B1E7796EF0078E90C /* Main.storyboard */; };
+		8E037B981E77979B0078E90C /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037B971E77979B0078E90C /* Brand.swift */; };
+		8E037B991E77979E0078E90C /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037B971E77979B0078E90C /* Brand.swift */; };
+		8E037B9C1E77992E0078E90C /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037B9B1E77992E0078E90C /* ProductsView.swift */; };
+		8E037B9E1E7799390078E90C /* ProductsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037B9D1E7799390078E90C /* ProductsPresenter.swift */; };
+		8E037BA01E7799410078E90C /* ProductsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037B9F1E7799410078E90C /* ProductsRouter.swift */; };
+		8E037BA21E77994A0078E90C /* ProductsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BA11E77994A0078E90C /* ProductsInteractor.swift */; };
+		8E037BA41E7799570078E90C /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BA31E7799570078E90C /* Product.swift */; };
+		8E037BA61E779A150078E90C /* ProductDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BA51E779A150078E90C /* ProductDisplay.swift */; };
+		8E037BA91E779A5F0078E90C /* SharedProductsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BA81E779A5F0078E90C /* SharedProductsPresenter.swift */; };
+		8E037BAB1E779ABF0078E90C /* ProductsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BAA1E779ABF0078E90C /* ProductsDataManager.swift */; };
+		8E037BAC1E779AC30078E90C /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037B9B1E77992E0078E90C /* ProductsView.swift */; };
+		8E037BAD1E779AC30078E90C /* ProductsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BA11E77994A0078E90C /* ProductsInteractor.swift */; };
+		8E037BAE1E779AC30078E90C /* ProductsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037B9D1E7799390078E90C /* ProductsPresenter.swift */; };
+		8E037BAF1E779AC30078E90C /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BA31E7799570078E90C /* Product.swift */; };
+		8E037BB01E779AC30078E90C /* ProductDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BA51E779A150078E90C /* ProductDisplay.swift */; };
+		8E037BB11E779AC30078E90C /* ProductsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037B9F1E7799410078E90C /* ProductsRouter.swift */; };
+		8E037BB21E779AC30078E90C /* ProductsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BAA1E779ABF0078E90C /* ProductsDataManager.swift */; };
+		8E037BB41E779BF10078E90C /* SharedProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BB31E779BF10078E90C /* SharedProduct.swift */; };
+		8E037BB61E779C1E0078E90C /* SharedProductDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BB51E779C1E0078E90C /* SharedProductDisplay.swift */; };
+		8E037BB81E779D990078E90C /* SharedProductsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BB71E779D990078E90C /* SharedProductsInteractor.swift */; };
+		8E037BBA1E779E380078E90C /* ProductsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BB91E779E380078E90C /* ProductsBuilder.swift */; };
+		8E037BBC1E779E6C0078E90C /* CocaColaProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BBB1E779E6C0078E90C /* CocaColaProductsViewController.swift */; };
+		8E037BBE1E77A2040078E90C /* CocaColaProductsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BBD1E77A2040078E90C /* CocaColaProductsBuilder.swift */; };
+		8E037BC01E77A2AF0078E90C /* CocaColaProductsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BBF1E77A2AF0078E90C /* CocaColaProductsDataManager.swift */; };
+		8E037BC21E77A32D0078E90C /* SharedProductsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BC11E77A32D0078E90C /* SharedProductsRouter.swift */; };
+		8E037BC41E77A3700078E90C /* DependencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BC31E77A3700078E90C /* DependencyManager.swift */; };
+		8E037BC71E77A3B90078E90C /* CocaColaDependencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BC61E77A3B90078E90C /* CocaColaDependencyManager.swift */; };
+		8E037BE01E7818AD0078E90C /* SharedProductsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BB71E779D990078E90C /* SharedProductsInteractor.swift */; };
+		8E037BE11E7818AD0078E90C /* SharedProductDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BB51E779C1E0078E90C /* SharedProductDisplay.swift */; };
+		8E037BE21E7818AD0078E90C /* SharedProductsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BA81E779A5F0078E90C /* SharedProductsPresenter.swift */; };
+		8E037BE31E7818AD0078E90C /* SharedProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BB31E779BF10078E90C /* SharedProduct.swift */; };
+		8E037BE41E7818AD0078E90C /* SharedProductsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BC11E77A32D0078E90C /* SharedProductsRouter.swift */; };
+		8E037BE81E7819D90078E90C /* SpriteProductsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BE71E7819D90078E90C /* SpriteProductsDataManager.swift */; };
+		8E037BEA1E781A030078E90C /* SpriteProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BE91E781A030078E90C /* SpriteProductsViewController.swift */; };
+		8E037BEC1E781A380078E90C /* SpriteProductsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BEB1E781A380078E90C /* SpriteProductsBuilder.swift */; };
+		8E037BED1E781A530078E90C /* ProductsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BB91E779E380078E90C /* ProductsBuilder.swift */; };
+		8E037BEF1E781AC40078E90C /* SpriteProducts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E037BEE1E781AC40078E90C /* SpriteProducts.storyboard */; };
+		8E037BF11E781B420078E90C /* SpriteProductsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BF01E781B420078E90C /* SpriteProductsCollectionViewCell.swift */; };
+		8E037BF21E781C860078E90C /* DependencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BC31E77A3700078E90C /* DependencyManager.swift */; };
+		8E037BF41E781C990078E90C /* SpriteDependencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BF31E781C990078E90C /* SpriteDependencyManager.swift */; };
+		8E037BF71E78272C0078E90C /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BF61E78272C0078E90C /* Theme.swift */; };
+		8E037BF81E78272C0078E90C /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BF61E78272C0078E90C /* Theme.swift */; };
+		8E037BFA1E78275C0078E90C /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BF91E78275C0078E90C /* Grid.swift */; };
+		8E037BFB1E78275C0078E90C /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BF91E78275C0078E90C /* Grid.swift */; };
+		8E037BFD1E7827910078E90C /* TextRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BFC1E7827910078E90C /* TextRenderer.swift */; };
+		8E037BFE1E7827910078E90C /* TextRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037BFC1E7827910078E90C /* TextRenderer.swift */; };
+		8E037C011E7827B30078E90C /* CocaColaTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037C001E7827B30078E90C /* CocaColaTheme.swift */; };
+		8E037C051E782A580078E90C /* SpriteTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E037C041E782A580078E90C /* SpriteTheme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E0149DD1E798B6E00B21E53 /* SpriteAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SpriteAssets.xcassets; sourceTree = "<group>"; };
+		8E037B741E7796EF0078E90C /* CocaCola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocaCola.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E037B771E7796EF0078E90C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E037B791E7796EF0078E90C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E037B7C1E7796EF0078E90C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E037B7E1E7796EF0078E90C /* CocaColaAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CocaColaAssets.xcassets; sourceTree = "<group>"; };
+		8E037B811E7796EF0078E90C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E037B831E7796EF0078E90C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E037B951E7797020078E90C /* Sprite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sprite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E037B961E7797020078E90C /* CocaCola copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CocaCola copy-Info.plist"; path = "/Users/thibaultklein/Code/Program iPhone/CocaCola/CocaCola copy-Info.plist"; sourceTree = "<absolute>"; };
+		8E037B971E77979B0078E90C /* Brand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		8E037B9B1E77992E0078E90C /* ProductsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsView.swift; sourceTree = "<group>"; };
+		8E037B9D1E7799390078E90C /* ProductsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsPresenter.swift; sourceTree = "<group>"; };
+		8E037B9F1E7799410078E90C /* ProductsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsRouter.swift; sourceTree = "<group>"; };
+		8E037BA11E77994A0078E90C /* ProductsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsInteractor.swift; sourceTree = "<group>"; };
+		8E037BA31E7799570078E90C /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		8E037BA51E779A150078E90C /* ProductDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDisplay.swift; sourceTree = "<group>"; };
+		8E037BA81E779A5F0078E90C /* SharedProductsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedProductsPresenter.swift; sourceTree = "<group>"; };
+		8E037BAA1E779ABF0078E90C /* ProductsDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsDataManager.swift; sourceTree = "<group>"; };
+		8E037BB31E779BF10078E90C /* SharedProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedProduct.swift; sourceTree = "<group>"; };
+		8E037BB51E779C1E0078E90C /* SharedProductDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedProductDisplay.swift; sourceTree = "<group>"; };
+		8E037BB71E779D990078E90C /* SharedProductsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedProductsInteractor.swift; sourceTree = "<group>"; };
+		8E037BB91E779E380078E90C /* ProductsBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsBuilder.swift; sourceTree = "<group>"; };
+		8E037BBB1E779E6C0078E90C /* CocaColaProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocaColaProductsViewController.swift; sourceTree = "<group>"; };
+		8E037BBD1E77A2040078E90C /* CocaColaProductsBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocaColaProductsBuilder.swift; sourceTree = "<group>"; };
+		8E037BBF1E77A2AF0078E90C /* CocaColaProductsDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocaColaProductsDataManager.swift; sourceTree = "<group>"; };
+		8E037BC11E77A32D0078E90C /* SharedProductsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedProductsRouter.swift; sourceTree = "<group>"; };
+		8E037BC31E77A3700078E90C /* DependencyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyManager.swift; sourceTree = "<group>"; };
+		8E037BC61E77A3B90078E90C /* CocaColaDependencyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocaColaDependencyManager.swift; sourceTree = "<group>"; };
+		8E037BE71E7819D90078E90C /* SpriteProductsDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpriteProductsDataManager.swift; sourceTree = "<group>"; };
+		8E037BE91E781A030078E90C /* SpriteProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpriteProductsViewController.swift; sourceTree = "<group>"; };
+		8E037BEB1E781A380078E90C /* SpriteProductsBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpriteProductsBuilder.swift; sourceTree = "<group>"; };
+		8E037BEE1E781AC40078E90C /* SpriteProducts.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SpriteProducts.storyboard; sourceTree = "<group>"; };
+		8E037BF01E781B420078E90C /* SpriteProductsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpriteProductsCollectionViewCell.swift; sourceTree = "<group>"; };
+		8E037BF31E781C990078E90C /* SpriteDependencyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpriteDependencyManager.swift; sourceTree = "<group>"; };
+		8E037BF61E78272C0078E90C /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		8E037BF91E78275C0078E90C /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		8E037BFC1E7827910078E90C /* TextRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextRenderer.swift; sourceTree = "<group>"; };
+		8E037C001E7827B30078E90C /* CocaColaTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocaColaTheme.swift; sourceTree = "<group>"; };
+		8E037C041E782A580078E90C /* SpriteTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpriteTheme.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E037B711E7796EF0078E90C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E037B8D1E7797020078E90C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E037B6B1E7796EF0078E90C = {
+			isa = PBXGroup;
+			children = (
+				8E037B761E7796EF0078E90C /* CocaCola */,
+				8E037B751E7796EF0078E90C /* Products */,
+				8E037B961E7797020078E90C /* CocaCola copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		8E037B751E7796EF0078E90C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E037B741E7796EF0078E90C /* CocaCola.app */,
+				8E037B951E7797020078E90C /* Sprite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E037B761E7796EF0078E90C /* CocaCola */ = {
+			isa = PBXGroup;
+			children = (
+				8E037B771E7796EF0078E90C /* AppDelegate.swift */,
+				8E037B971E77979B0078E90C /* Brand.swift */,
+				8E037BC31E77A3700078E90C /* DependencyManager.swift */,
+				8E037B791E7796EF0078E90C /* ViewController.swift */,
+				8E037BF51E7827090078E90C /* Theme */,
+				8E037BDF1E78186B0078E90C /* Shared */,
+				8E037BC51E77A3A90078E90C /* Coca Cola */,
+				8E037BC81E7816D10078E90C /* Sprite */,
+				8E037B9A1E7799120078E90C /* Products */,
+				8E037B7B1E7796EF0078E90C /* Main.storyboard */,
+				8E037B7E1E7796EF0078E90C /* CocaColaAssets.xcassets */,
+				8E0149DD1E798B6E00B21E53 /* SpriteAssets.xcassets */,
+				8E037B801E7796EF0078E90C /* LaunchScreen.storyboard */,
+				8E037B831E7796EF0078E90C /* Info.plist */,
+			);
+			path = CocaCola;
+			sourceTree = "<group>";
+		};
+		8E037B9A1E7799120078E90C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E037B9B1E77992E0078E90C /* ProductsView.swift */,
+				8E037BA11E77994A0078E90C /* ProductsInteractor.swift */,
+				8E037B9D1E7799390078E90C /* ProductsPresenter.swift */,
+				8E037BA31E7799570078E90C /* Product.swift */,
+				8E037BA51E779A150078E90C /* ProductDisplay.swift */,
+				8E037B9F1E7799410078E90C /* ProductsRouter.swift */,
+				8E037BAA1E779ABF0078E90C /* ProductsDataManager.swift */,
+				8E037BB91E779E380078E90C /* ProductsBuilder.swift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E037BA71E779A360078E90C /* CocaCola Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E037BCC1E7817110078E90C /* View */,
+				8E037BCE1E78171F0078E90C /* Builder */,
+				8E037BCF1E7817270078E90C /* Services */,
+			);
+			name = "CocaCola Products";
+			sourceTree = "<group>";
+		};
+		8E037BC51E77A3A90078E90C /* Coca Cola */ = {
+			isa = PBXGroup;
+			children = (
+				8E037BFF1E7827AA0078E90C /* Theme */,
+				8E037BA71E779A360078E90C /* CocaCola Products */,
+				8E037BC61E77A3B90078E90C /* CocaColaDependencyManager.swift */,
+			);
+			name = "Coca Cola";
+			sourceTree = "<group>";
+		};
+		8E037BC81E7816D10078E90C /* Sprite */ = {
+			isa = PBXGroup;
+			children = (
+				8E037C031E782A4C0078E90C /* Theme */,
+				8E037BD01E7817470078E90C /* Sprite Products */,
+				8E037BF31E781C990078E90C /* SpriteDependencyManager.swift */,
+			);
+			name = Sprite;
+			sourceTree = "<group>";
+		};
+		8E037BC91E7816E00078E90C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8E037BB51E779C1E0078E90C /* SharedProductDisplay.swift */,
+				8E037BA81E779A5F0078E90C /* SharedProductsPresenter.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		8E037BCA1E7816E60078E90C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				8E037BB71E779D990078E90C /* SharedProductsInteractor.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		8E037BCB1E7817040078E90C /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				8E037BB31E779BF10078E90C /* SharedProduct.swift */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		8E037BCC1E7817110078E90C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8E037BBB1E779E6C0078E90C /* CocaColaProductsViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8E037BCD1E78171A0078E90C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				8E037BC11E77A32D0078E90C /* SharedProductsRouter.swift */,
+			);
+			name = Router;
+			sourceTree = "<group>";
+		};
+		8E037BCE1E78171F0078E90C /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				8E037BBD1E77A2040078E90C /* CocaColaProductsBuilder.swift */,
+			);
+			name = Builder;
+			sourceTree = "<group>";
+		};
+		8E037BCF1E7817270078E90C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8E037BBF1E77A2AF0078E90C /* CocaColaProductsDataManager.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		8E037BD01E7817470078E90C /* Sprite Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E037BD11E7817530078E90C /* View */,
+				8E037BD61E7817720078E90C /* Builder */,
+				8E037BE61E7819BC0078E90C /* Services */,
+			);
+			name = "Sprite Products";
+			sourceTree = "<group>";
+		};
+		8E037BD11E7817530078E90C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8E037BEE1E781AC40078E90C /* SpriteProducts.storyboard */,
+				8E037BE91E781A030078E90C /* SpriteProductsViewController.swift */,
+				8E037BF01E781B420078E90C /* SpriteProductsCollectionViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8E037BD61E7817720078E90C /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				8E037BEB1E781A380078E90C /* SpriteProductsBuilder.swift */,
+			);
+			name = Builder;
+			sourceTree = "<group>";
+		};
+		8E037BDF1E78186B0078E90C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8E037C061E78498D0078E90C /* Products */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		8E037BE61E7819BC0078E90C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8E037BE71E7819D90078E90C /* SpriteProductsDataManager.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		8E037BF51E7827090078E90C /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				8E037BF61E78272C0078E90C /* Theme.swift */,
+				8E037BF91E78275C0078E90C /* Grid.swift */,
+				8E037BFC1E7827910078E90C /* TextRenderer.swift */,
+			);
+			name = Theme;
+			sourceTree = "<group>";
+		};
+		8E037BFF1E7827AA0078E90C /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				8E037C001E7827B30078E90C /* CocaColaTheme.swift */,
+			);
+			name = Theme;
+			sourceTree = "<group>";
+		};
+		8E037C031E782A4C0078E90C /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				8E037C041E782A580078E90C /* SpriteTheme.swift */,
+			);
+			name = Theme;
+			sourceTree = "<group>";
+		};
+		8E037C061E78498D0078E90C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E037BCA1E7816E60078E90C /* Interactor */,
+				8E037BC91E7816E00078E90C /* Presenter */,
+				8E037BCB1E7817040078E90C /* Entity */,
+				8E037BCD1E78171A0078E90C /* Router */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E037B731E7796EF0078E90C /* CocaCola */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E037B861E7796EF0078E90C /* Build configuration list for PBXNativeTarget "CocaCola" */;
+			buildPhases = (
+				8E037B701E7796EF0078E90C /* Sources */,
+				8E037B711E7796EF0078E90C /* Frameworks */,
+				8E037B721E7796EF0078E90C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocaCola;
+			productName = CocaCola;
+			productReference = 8E037B741E7796EF0078E90C /* CocaCola.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E037B891E7797020078E90C /* Sprite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E037B921E7797020078E90C /* Build configuration list for PBXNativeTarget "Sprite" */;
+			buildPhases = (
+				8E037B8A1E7797020078E90C /* Sources */,
+				8E037B8D1E7797020078E90C /* Frameworks */,
+				8E037B8E1E7797020078E90C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sprite;
+			productName = CocaCola;
+			productReference = 8E037B951E7797020078E90C /* Sprite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E037B6C1E7796EF0078E90C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Thibault Klein";
+				TargetAttributes = {
+					8E037B731E7796EF0078E90C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5ZZ7W4SB26;
+						ProvisioningStyle = Automatic;
+					};
+					8E037B891E7797020078E90C = {
+						DevelopmentTeam = 5ZZ7W4SB26;
+					};
+				};
+			};
+			buildConfigurationList = 8E037B6F1E7796EF0078E90C /* Build configuration list for PBXProject "CocaCola" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E037B6B1E7796EF0078E90C;
+			productRefGroup = 8E037B751E7796EF0078E90C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E037B731E7796EF0078E90C /* CocaCola */,
+				8E037B891E7797020078E90C /* Sprite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E037B721E7796EF0078E90C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E037B821E7796EF0078E90C /* LaunchScreen.storyboard in Resources */,
+				8E037B7F1E7796EF0078E90C /* CocaColaAssets.xcassets in Resources */,
+				8E037B7D1E7796EF0078E90C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E037B8E1E7797020078E90C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E037B8F1E7797020078E90C /* LaunchScreen.storyboard in Resources */,
+				8E037B911E7797020078E90C /* Main.storyboard in Resources */,
+				8E037BEF1E781AC40078E90C /* SpriteProducts.storyboard in Resources */,
+				8E0149DE1E798B6E00B21E53 /* SpriteAssets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E037B701E7796EF0078E90C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E037B9C1E77992E0078E90C /* ProductsView.swift in Sources */,
+				8E037BA41E7799570078E90C /* Product.swift in Sources */,
+				8E037B7A1E7796EF0078E90C /* ViewController.swift in Sources */,
+				8E037BA01E7799410078E90C /* ProductsRouter.swift in Sources */,
+				8E037BC01E77A2AF0078E90C /* CocaColaProductsDataManager.swift in Sources */,
+				8E037BC71E77A3B90078E90C /* CocaColaDependencyManager.swift in Sources */,
+				8E037BAB1E779ABF0078E90C /* ProductsDataManager.swift in Sources */,
+				8E037BA61E779A150078E90C /* ProductDisplay.swift in Sources */,
+				8E037BB41E779BF10078E90C /* SharedProduct.swift in Sources */,
+				8E037BBC1E779E6C0078E90C /* CocaColaProductsViewController.swift in Sources */,
+				8E037BC21E77A32D0078E90C /* SharedProductsRouter.swift in Sources */,
+				8E037C011E7827B30078E90C /* CocaColaTheme.swift in Sources */,
+				8E037BB61E779C1E0078E90C /* SharedProductDisplay.swift in Sources */,
+				8E037B9E1E7799390078E90C /* ProductsPresenter.swift in Sources */,
+				8E037BC41E77A3700078E90C /* DependencyManager.swift in Sources */,
+				8E037B981E77979B0078E90C /* Brand.swift in Sources */,
+				8E037BFA1E78275C0078E90C /* Grid.swift in Sources */,
+				8E037BF71E78272C0078E90C /* Theme.swift in Sources */,
+				8E037BFD1E7827910078E90C /* TextRenderer.swift in Sources */,
+				8E037BBA1E779E380078E90C /* ProductsBuilder.swift in Sources */,
+				8E037B781E7796EF0078E90C /* AppDelegate.swift in Sources */,
+				8E037BBE1E77A2040078E90C /* CocaColaProductsBuilder.swift in Sources */,
+				8E037BA21E77994A0078E90C /* ProductsInteractor.swift in Sources */,
+				8E037BB81E779D990078E90C /* SharedProductsInteractor.swift in Sources */,
+				8E037BA91E779A5F0078E90C /* SharedProductsPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E037B8A1E7797020078E90C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E037BAE1E779AC30078E90C /* ProductsPresenter.swift in Sources */,
+				8E037BF41E781C990078E90C /* SpriteDependencyManager.swift in Sources */,
+				8E037BAC1E779AC30078E90C /* ProductsView.swift in Sources */,
+				8E037BFE1E7827910078E90C /* TextRenderer.swift in Sources */,
+				8E037BF81E78272C0078E90C /* Theme.swift in Sources */,
+				8E037BE31E7818AD0078E90C /* SharedProduct.swift in Sources */,
+				8E037BF11E781B420078E90C /* SpriteProductsCollectionViewCell.swift in Sources */,
+				8E037BED1E781A530078E90C /* ProductsBuilder.swift in Sources */,
+				8E037BE01E7818AD0078E90C /* SharedProductsInteractor.swift in Sources */,
+				8E037BAD1E779AC30078E90C /* ProductsInteractor.swift in Sources */,
+				8E037BE41E7818AD0078E90C /* SharedProductsRouter.swift in Sources */,
+				8E037BEC1E781A380078E90C /* SpriteProductsBuilder.swift in Sources */,
+				8E037BFB1E78275C0078E90C /* Grid.swift in Sources */,
+				8E037B8B1E7797020078E90C /* ViewController.swift in Sources */,
+				8E037B991E77979E0078E90C /* Brand.swift in Sources */,
+				8E037B8C1E7797020078E90C /* AppDelegate.swift in Sources */,
+				8E037BB01E779AC30078E90C /* ProductDisplay.swift in Sources */,
+				8E037BF21E781C860078E90C /* DependencyManager.swift in Sources */,
+				8E037BE81E7819D90078E90C /* SpriteProductsDataManager.swift in Sources */,
+				8E037BE21E7818AD0078E90C /* SharedProductsPresenter.swift in Sources */,
+				8E037BB21E779AC30078E90C /* ProductsDataManager.swift in Sources */,
+				8E037BEA1E781A030078E90C /* SpriteProductsViewController.swift in Sources */,
+				8E037BAF1E779AC30078E90C /* Product.swift in Sources */,
+				8E037BB11E779AC30078E90C /* ProductsRouter.swift in Sources */,
+				8E037C051E782A580078E90C /* SpriteTheme.swift in Sources */,
+				8E037BE11E7818AD0078E90C /* SharedProductDisplay.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E037B7B1E7796EF0078E90C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E037B7C1E7796EF0078E90C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E037B801E7796EF0078E90C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E037B811E7796EF0078E90C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E037B841E7796EF0078E90C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E037B851E7796EF0078E90C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E037B871E7796EF0078E90C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5ZZ7W4SB26;
+				INFOPLIST_FILE = CocaCola/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D COCA_BRAND";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prolificinteractive.CocaCola;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8E037B881E7796EF0078E90C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5ZZ7W4SB26;
+				INFOPLIST_FILE = CocaCola/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D COCA_BRAND";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prolificinteractive.CocaCola;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8E037B931E7797020078E90C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5ZZ7W4SB26;
+				INFOPLIST_FILE = "CocaCola copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D SPRITE_BRAND";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prolificinteractive.CocaCola;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8E037B941E7797020078E90C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5ZZ7W4SB26;
+				INFOPLIST_FILE = "CocaCola copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D SPRITE_BRAND";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prolificinteractive.CocaCola;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E037B6F1E7796EF0078E90C /* Build configuration list for PBXProject "CocaCola" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E037B841E7796EF0078E90C /* Debug */,
+				8E037B851E7796EF0078E90C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E037B861E7796EF0078E90C /* Build configuration list for PBXNativeTarget "CocaCola" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E037B871E7796EF0078E90C /* Debug */,
+				8E037B881E7796EF0078E90C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E037B921E7797020078E90C /* Build configuration list for PBXNativeTarget "Sprite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E037B931E7797020078E90C /* Debug */,
+				8E037B941E7797020078E90C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E037B6C1E7796EF0078E90C /* Project object */;
+}

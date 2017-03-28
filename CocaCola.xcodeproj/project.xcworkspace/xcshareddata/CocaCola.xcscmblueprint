@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3B65604FAA8A0C318D8BE4B7E18E9F2CFBB25DFE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3B65604FAA8A0C318D8BE4B7E18E9F2CFBB25DFE" : 9223372036854775807,
+    "744FDA5FC573B7D1AE761D791C4DF5A93A9B0F74" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8116D4F6-DB1E-449B-8897-DD47EAE38894",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3B65604FAA8A0C318D8BE4B7E18E9F2CFBB25DFE" : "ReusabilityMeetup\/",
+    "744FDA5FC573B7D1AE761D791C4DF5A93A9B0F74" : "CocaCola\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CocaCola",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CocaCola.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/klein-thibault\/ReusabilityMeetup.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3B65604FAA8A0C318D8BE4B7E18E9F2CFBB25DFE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/bitbucket.org\/prolificinteractive\/reusabilitymeetup.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "744FDA5FC573B7D1AE761D791C4DF5A93A9B0F74"
+    }
+  ]
+}
